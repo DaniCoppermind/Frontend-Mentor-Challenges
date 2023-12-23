@@ -55,19 +55,17 @@ img {
   border-radius: 10px;
 }
 
-h3,
-p {
-  text-align: center;
-}
-
-h3 {
+h1 {
   font-size: 22px;
   font-weight: var(--font-bold);
   color: var(--Drak-blue);
   margin-bottom: 10px;
+  text-align: center;
 }
 
 p {
+  font-size: var(--paragraph);
   font-weight: var(--font-regular);
   color: var(--Grayish-blue);
+  text-align: center;
 }
