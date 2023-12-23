@@ -1,0 +1,73 @@
+/* Desings Desktop: 1440px */
+
+:root {
+  /* Colors */
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Drak-blue: hsl(218, 44%, 22%);
+  /* Typography */
+  --paragraph: 15px;
+  --font-family: "Outfit", sans-serif;
+  --font-regular: 400;
+  --font-bold: 700;
+}
+
+/* Base CSS */
+
+html,
+*,
+*:after,
+*:before {
+  font-family: var(--font-family);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: var(--Light-gray);
+}
+
+/* Container */
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  background-color: var(--White);
+  padding: 15px 15px 40px 15px;
+  border-radius: 10px;
+
+  max-width: 300px;
+}
+
+/* Custom objects */
+
+img {
+  width: 275px;
+  border-radius: 10px;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: var(--font-bold);
+  color: var(--Drak-blue);
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: var(--font-regular);
+  color: var(--Grayish-blue);
+}
