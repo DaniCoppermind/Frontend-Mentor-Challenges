@@ -29,6 +29,9 @@ html,
 
 body {
   background-color: var(--Yellow);
+  display: grid;
+  place-content: center;
+  height: 100vh;
 }
 
 /* Blog preview (Container) */
