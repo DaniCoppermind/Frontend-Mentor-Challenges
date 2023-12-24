@@ -1,0 +1,106 @@
+/* Idk how to use Sass so xD */
+/* Assets*/
+@font-face {
+  font-family: Fightree-variable;
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+/* Base CSS */
+
+:root {
+  /* Colors */
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+  /* Fonts */
+  --font: Fightree-variable;
+}
+
+html,
+*,
+*:after,
+*:before {
+  font-family: var(--font);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--Yellow);
+}
+
+/* Blog preview (Container) */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  width: 380px;
+  height: 490px;
+  margin: 15vh auto;
+  padding: 10px 20px;
+
+  background-color: var(--White);
+  border-radius: 15px;
+  border: 1px solid var(--Black);
+  box-shadow: 12px 10px;
+}
+
+/* Illustration */
+
+.container-illustration {
+  border-radius: inherit;
+}
+
+/* Text */
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.container-title > h1 {
+  font-size: 25px;
+}
+
+.container-title > h1:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+
+.container-title > p {
+  color: var(--Grey);
+}
+
+.container-learning {
+  background-color: var(--Yellow);
+  text-align: center;
+  padding: 6px 15px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+/* Avatar */
+
+.container-avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-avatar > img {
+  width: 30px;
+}
