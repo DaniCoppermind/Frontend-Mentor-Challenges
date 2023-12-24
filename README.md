@@ -10,7 +10,7 @@
 ### Links
 Live Site URL: 
 - [Qr code component](https://phenomenal-smakager-6d6b9d.netlify.app/)
-- [Blog preview card]()
+- [Blog preview card](https://65887ebb58d63a64fb20bb50--imaginative-gelato-5597e0.netlify.app/)
 
 ## My process
 
