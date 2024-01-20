@@ -45,6 +45,12 @@ body {
 
 /* Media query */
 
+@media (max-width: 620px) {
+  #container {
+    flex-direction: column;
+  }
+}
+
 /* Colors */
 
 .container-card {
