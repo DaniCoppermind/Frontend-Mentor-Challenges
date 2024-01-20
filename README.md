@@ -19,7 +19,7 @@ Live Site URL:
 
 #1 - QR code component
 #2 - Blog preview card
-#3 - Results Summary Component Main (75%)
+#3 - Results Summary Component Main 
 
 ### Built with
 
