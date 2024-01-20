@@ -33,4 +33,4 @@ Live Site URL:
 
 - Frontend Mentor - [@DaaniCoppermind](https://www.frontendmentor.io/profile/DaniCoppermind)
 - Github - [DaniCoppermind](https://github.com/DaniCoppermind)
-- LinkdIn - [Dani_Coppermind](https://www.linkedin.com/in/danicoppermind/)
+- LinkedIn - [Dani_Coppermind](https://www.linkedin.com/in/copperminddev/)
