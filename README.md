@@ -8,7 +8,9 @@
 ## Table of contents
 
 ### Links
-Live Site URL: 
+
+Live Site URL:
+
 - [Qr code component](https://phenomenal-smakager-6d6b9d.netlify.app/)
 - [Blog preview card](https://65887ebb58d63a64fb20bb50--imaginative-gelato-5597e0.netlify.app/)
 
@@ -16,12 +18,15 @@ Live Site URL:
 
 #1 - QR code component
 #2 - Blog preview card
+#3 - Results Summary Component Main (75%)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
   (Only that, for now...)
+- Javascript
+- Json
 
 ## Author
 
