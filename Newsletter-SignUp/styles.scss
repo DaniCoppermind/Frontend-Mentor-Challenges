@@ -1,0 +1,238 @@
+// Add fonts
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto-regular";
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+// Primary
+$tomato: linear-gradient(
+  90deg,
+  rgba(255, 84, 120, 1) 55%,
+  rgb(250, 127, 69) 100%
+);
+// Neutral
+$darkSlateGrey: hsl(234, 29%, 20%);
+$charcoalGrey: hsl(235, 18%, 26%);
+$grey: hsl(231, 7%, 60%);
+$white: hsl(0, 0%, 100%);
+// Tipography
+$fontSizeParagraph: 16px;
+$fontFamilyBold: "Roboto-bold";
+$fontFamilyRegular: "Roboto-regular";
+
+// Responsive
+
+@mixin mobile {
+  @media (max-width: 798px) {
+    @content;
+  }
+}
+
+// CSS reset
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $fontFamilyRegular;
+  background-color: $darkSlateGrey;
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+// Styles
+
+// Hide
+.hide {
+  display: none;
+}
+// 
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $white;
+  gap: 20px;
+  padding: 20px 20px 20px 50px;
+  border-radius: 22px;
+
+  @include mobile() {
+    display: flex;
+    flex-direction: column-reverse;
+
+    padding: 0;
+    padding-bottom: 16px;
+    height: 100vh;
+  }
+}
+
+// card
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @include mobile() {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// Header
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    align-self: flex-start;
+    margin: 0;
+    font-size: 55px;
+    font-family: $fontFamilyBold;
+    color: $darkSlateGrey;
+  }
+  p {
+    max-width: 90%;
+    font-size: $fontSizeParagraph;
+    text-align: left;
+  }
+  @include mobile() {
+    align-items: center;
+    h1 {
+      margin-left: 20px;
+      font-size: 45px;
+    }
+  }
+}
+
+// List
+
+.card-list {
+  margin-bottom: 15px;
+  ul {
+    list-style: url(./assets/images/icon-list.svg);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  @include mobile() {
+    ul {
+      padding: 0;
+      gap: 20px;
+    }
+  }
+}
+
+// Form
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  label {
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-family: $fontFamilyBold;
+    color: $darkSlateGrey;
+  }
+  input[type="email"] {
+    border-radius: 7px;
+    border: 0.2px double $grey;
+    margin-bottom: 18px;
+    height: 45px;
+    padding-left: 15px;
+  }
+  input[type="submit"] {
+    background-color: $charcoalGrey;
+    border-radius: 7px;
+    border-style: none;
+    color: $white;
+    cursor: pointer;
+    font-size: $fontSizeParagraph;
+    font-family: $fontFamilyRegular;
+    height: 50px;
+  }
+  input[type="submit"]:hover {
+    background: $tomato;
+  }
+}
+
+// Img
+
+.card-img {
+  content: url(./assets/images/illustration-sign-up-desktop.svg);
+  background-size: cover;
+
+  @include mobile() {
+    content: url(./assets/images/illustration-sign-up-mobile.svg);
+    width: 100%;
+    border-radius: inherit;
+  }
+}
+
+// Success
+
+#container-success {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  background-color: $white;
+  padding: 20px 50px;
+  height: 400px;
+  width: 325px;
+  border-radius: 22px;
+
+  img {
+    width: 50px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 45px;
+    font-family: $fontFamilyBold;
+    color: $darkSlateGrey;
+  }
+  p {
+    color: $charcoalGrey;
+    text-align: left;
+    font-size: 14px;
+    span {
+      color: $darkSlateGrey;
+      font-weight: bolder;
+      line-height: 2;
+    }
+  }
+  input[type="submit"] {
+    background-color: $charcoalGrey;
+    border-radius: 7px;
+    border-style: none;
+    color: $white;
+    cursor: pointer;
+    font-size: $fontSizeParagraph;
+    font-family: $fontFamilyRegular;
+    height: 50px;
+  }
+  input[type="submit"]:hover {
+    background: $tomato;
+  }
+  @include mobile() {
+    height: 100vh;
+    justify-content: flex-end;
+    gap: 38%;
+  }
+}
