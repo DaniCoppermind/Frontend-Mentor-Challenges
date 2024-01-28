@@ -38,6 +38,7 @@ body {
 @media (max-width: 798px) {
   .container {
     display: flex;
+    justify-content: space-between;
     flex-direction: column-reverse;
     padding: 0;
     padding-bottom: 16px;
@@ -52,7 +53,6 @@ body {
 }
 @media (max-width: 798px) {
   .card-container {
-    justify-content: space-between;
     align-items: center;
   }
 }
