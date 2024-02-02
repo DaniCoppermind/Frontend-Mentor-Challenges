@@ -449,6 +449,7 @@ body {
   place-content: center;
   height: 100vh;
   background-color: hsl(0, 0%, 8%);
+  font-family: 'Inter';
 }
 
 :root {
@@ -562,8 +563,11 @@ body {
 .link-card {
   border-radius: 0.5rem;
   background-color: var(--grey);
-  padding: 0.5rem;
+  padding: 0.75rem;
   text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
   color: var(--white);
 }
 
@@ -595,6 +599,10 @@ body {
   height: 580px;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -605,6 +613,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .flex-auto {
@@ -637,6 +649,15 @@ body {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-red-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 226 226 / var(--tw-border-opacity));
 }
 
 .bg-\[--dark-grey\] {
@@ -677,7 +698,7 @@ body {
 @font-face {
   font-family: "Inter";
 
-  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("woff");
+  src: url(./assets/fonts/Inter-Regular.ttf);
 
   font-weight: normal;
 

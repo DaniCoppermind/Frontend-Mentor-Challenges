@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("woff");
+  src: url(./assets/fonts/Inter-Regular.ttf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -17,6 +17,7 @@
     height: 100vh;
 
     background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter';
   }
   :root {
     --green: hsl(75, 94%, 57%);
@@ -29,6 +30,6 @@
 
 @layer components {
   .link-card {
-    @apply rounded-lg bg-[--grey] p-2 text-center text-[--white] hover:bg-[--green] hover:font-semibold hover:text-black;
+    @apply font-bold text-sm rounded-lg bg-[--grey] p-3 text-center text-[--white] hover:bg-[--green] hover:font-semibold hover:text-black;
   }
 }
