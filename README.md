@@ -15,7 +15,7 @@ Live Site URL:
 - [Blog preview card](https://imaginative-gelato-5597e0.netlify.app)
 - [Results Summary](https://prismatic-smakager-ffe1ff.netlify.app)
 - [Newsletter Sign Up](https://frolicking-basbousa-5e9a27.netlify.app)
-- [Social Links Profile](https://sage-yeot-fe0741.netlify.app/)
+- [Social Links Profile](https://bucolic-cascaron-bb04fb.netlify.app)
 
 
 ## My process
