@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "WorkSans";
+  src: url(./assets/fonts/WorkSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    font-family: "WorkSans";
+
+    display: grid;
+    place-content: center;
+    height: 90vh;
+
+    background: var(--light-pink)
+      url(./assets/images/background-pattern-desktop.svg) no-repeat;
+  }
+  :root {
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+  }
+}
+
+@layer components {
+  .question {
+    @apply my-4 flex cursor-pointer items-center justify-between text-left font-black text-[--dark-purple] hover:text-[--grayish-purple];
+  }
+  .answer {
+    @apply text-sm text-[--grayish-purple];
+  }
+  .button {
+    @apply cursor-pointer;
+  }
+}
