@@ -16,7 +16,7 @@
 
     display: grid;
     place-content: center;
-    height: 90vh;
+    height: 100vh;
 
     background: var(--light-pink)
       url(./assets/images/background-pattern-desktop.svg) no-repeat;
