@@ -16,7 +16,7 @@ Live Site URL:
 - [Results Summary](https://prismatic-smakager-ffe1ff.netlify.app)
 - [Newsletter Sign Up](https://frolicking-basbousa-5e9a27.netlify.app)
 - [Social Links Profile](https://bucolic-cascaron-bb04fb.netlify.app)
-- [Faq-Accordion](https://gleeful-starburst-64c46d.netlify.app)
+- [Faq-Accordion](https://magenta-maamoul-1f978d.netlify.app/)
 
 
 ## My process
