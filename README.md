@@ -16,6 +16,7 @@ Live Site URL:
 - [Results Summary](https://prismatic-smakager-ffe1ff.netlify.app)
 - [Newsletter Sign Up](https://frolicking-basbousa-5e9a27.netlify.app)
 - [Social Links Profile](https://bucolic-cascaron-bb04fb.netlify.app)
+- [Age Calculator App]()
 
 
 ## My process
@@ -25,19 +26,25 @@ Live Site URL:
 #3 - Results Summary Component Main 
 #4 - Newsletter Sign Up
 #5 - Social Links Profile
+#6 - Age Calculator App
 
 ### Built with
+
+- React
+- Vite
 
 - Semantic HTML5 markup
 
 - CSS (Web | Mobile | Responsive)
 - Sass
+- PostCSS (Web | Mobile | Responsive)
 - Tailwind
 
 - Javascript
 - Json
 
 - npm | npx 
+- Eslint - Standard
 
 ## Author
 
