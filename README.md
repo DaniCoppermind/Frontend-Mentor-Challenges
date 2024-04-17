@@ -16,7 +16,11 @@ Live Site URL:
 - [Results Summary](https://prismatic-smakager-ffe1ff.netlify.app)
 - [Newsletter Sign Up](https://frolicking-basbousa-5e9a27.netlify.app)
 - [Social Links Profile](https://bucolic-cascaron-bb04fb.netlify.app)
+<<<<<<< HEAD
 - [Age Calculator App]()
+=======
+- [Faq-Accordion](https://magenta-maamoul-1f978d.netlify.app/)
+>>>>>>> d007c9e24c11925c5036d17f7f4b94a2a7ac6521
 
 
 ## My process
@@ -26,7 +30,11 @@ Live Site URL:
 #3 - Results Summary Component Main 
 #4 - Newsletter Sign Up
 #5 - Social Links Profile
+<<<<<<< HEAD
 #6 - Age Calculator App
+=======
+#6 - Faq-Accordion
+>>>>>>> d007c9e24c11925c5036d17f7f4b94a2a7ac6521
 
 ### Built with
 
