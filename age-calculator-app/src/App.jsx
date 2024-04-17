@@ -127,7 +127,7 @@ function App() {
           <hr className="w-[25rem] border xs:w-full" />
           <button onClick={handleSubmit}>
             <img
-              className="rounded-full bg-[--purple] p-2 active:bg-black xs:absolute xs:bottom-[330px] xs:right-32 xs:mt-4 xs:p-1"
+              className="rounded-full bg-[--purple] p-2 active:bg-black xs:mt-4 xs:p-1"
               src={iconArrow}
               alt="Button Icon"
             />
