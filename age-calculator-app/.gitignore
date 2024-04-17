@@ -26,4 +26,3 @@ dist-ssr
 # Tailwind directories
 .prettierrc
 .eslintrc.cjs
-vite.config.js
