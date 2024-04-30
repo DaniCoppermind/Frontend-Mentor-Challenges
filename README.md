@@ -23,11 +23,17 @@ Live Site URL:
 ## My process
 
 #1 - QR code component
+
 #2 - Blog preview card
+
 #3 - Results Summary Component Main 
+
 #4 - Newsletter Sign Up
+
 #5 - Social Links Profile
+
 #6 - Faq-Accordion
+
 #7 - Notification-page-main (in process)
 
 ### Built with
