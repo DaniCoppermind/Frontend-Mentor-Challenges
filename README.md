@@ -28,6 +28,7 @@ Live Site URL:
 #4 - Newsletter Sign Up
 #5 - Social Links Profile
 #6 - Faq-Accordion
+#7 - Notification-page-main (in process)
 
 ### Built with
 
